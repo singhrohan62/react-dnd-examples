@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { DragDropContext } from 'react-dnd';
-import Item from './Item';
-import Target from './Target';
+import Item from './Example1/Item';
+import Target from './Example1/Target';
 import './App.css';
-import Card from './Card';
+import Card from './Example2/Card';
 import update from 'immutability-helper';
 
 class App extends Component {
